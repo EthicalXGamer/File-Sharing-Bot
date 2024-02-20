@@ -10,11 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ JOIN CONTENT WALLAH 
-                         https://t.me/contentwallah01
-                         https://t.me/contentwallah01
-                         https://t.me/contentwallah01 
-            </b>",
+            text = f"<b>○ JOIN CONTENT WALLAH                         https://t.me/contentwallah01           https://t.me/contentwallah0                https://t.me/contentwallah01</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
