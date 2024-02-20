@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡ Join Content Wallah ⚡", callback_data = "about"),
+                    InlineKeyboardButton("⚡ Join Content Wallah ⚡", url = "https://t.me/contentwallah01"),
                 ]
                   [  InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
